@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .titlediv {
+    width: 50%;
+  }
+  
+  .categorydiv {
+    width: 50%;
+  }
+  
+  .editornames {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editor-name {
+    flex: 1;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+  }
+  
+  #editorLastName {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 3px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  .csbuttons {
+    text-align: center;
+    margin-left: 420px;
+  }
+  
